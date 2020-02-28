@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:page_transition/page_transition.dart';
+import 'package:simed/screens/homeScreen.dart';
 
 class loginScreen extends StatefulWidget {
   @override
@@ -113,6 +115,7 @@ class _loginScreenState extends State<loginScreen> {
                           SizedBox(height: 30),
                           RaisedButton(
                             onPressed: () {
+                              Navigator.pushNamed(context, "/home");
                               if (_emailController.text.isEmpty) {
                                 print('===> VAZIO');
                               } else {

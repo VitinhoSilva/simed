@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:page_transition/page_transition.dart';
-import 'package:simed/view/loginScreen.dart';
+import 'package:simed/screens/loginScreen.dart';
 import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
 
 
@@ -47,7 +47,7 @@ class _splashScreenState extends State<splashScreen> {
       Navigator.pushNamed(context, "/login");
 //      Navigator.push(
 //          context, PageTransition(
-//          type: PageTransitionType.leftToRight,
+//          type: PageTransitionType.downToUp,
 //          duration: Duration(seconds: 3),
 //            child: loginScreen()
 //       )
