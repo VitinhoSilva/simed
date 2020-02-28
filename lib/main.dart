@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:simed/screens/splashScreen.dart';
+import 'package:simed/view/loginScreen.dart';
+import 'package:simed/view/splashScreen.dart';
 
 void main() => runApp(new MyApp());
 
@@ -11,8 +12,11 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.green,
           ),
-          debugShowCheckedModeBanner: false,
-          home: splashScreen()
+          debugShowCheckedModeBanner: true,
+          home: splashScreen(),
+        routes: <String, WidgetBuilder> {
+          '/login': (BuildContext context) => loginScreen(),
+        },
       );
   }
 }
