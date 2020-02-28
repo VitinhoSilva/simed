@@ -1,6 +1,6 @@
-import 'package:simed/screens/calendar_page.dart';
-import 'package:simed/screens/main_page.dart';
-import 'package:simed/screens/settings_page.dart';
+import 'package:simed/screens/profileScreen.dart';
+import 'package:simed/screens/mainScreen.dart';
+import 'package:simed/screens/aboutScreen.dart';
 
 typedef T Constructor<T>();
 

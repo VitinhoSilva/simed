@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:simed/util/drawUtil.dart';
 
-class SettingsPage extends KFDrawerContent {
+class MainPage extends KFDrawerContent {
+  MainPage({
+    Key key,
+  });
+
   @override
-  _SettingsPageState createState() => _SettingsPageState();
+  _MainPageState createState() => _MainPageState();
 }
 
-class _SettingsPageState extends State<SettingsPage> {
+class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -35,7 +39,7 @@ class _SettingsPageState extends State<SettingsPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text('Settings'),
+                  Text('HOME'),
                 ],
               ),
             ),
@@ -43,6 +47,5 @@ class _SettingsPageState extends State<SettingsPage> {
         ),
       ),
     );
-    ;
   }
 }

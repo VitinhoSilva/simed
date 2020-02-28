@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:simed/util/drawUtil.dart';
 
-class MainPage extends KFDrawerContent {
-  MainPage({
-    Key key,
-  });
-
+class CalendarPage extends KFDrawerContent {
   @override
-  _MainPageState createState() => _MainPageState();
+  _CalendarPageState createState() => _CalendarPageState();
 }
 
-class _MainPageState extends State<MainPage> {
+class _CalendarPageState extends State<CalendarPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -39,7 +35,7 @@ class _MainPageState extends State<MainPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text('Main'),
+                  Text('ÁREA DO ASSOCIADO'),
                 ],
               ),
             ),
@@ -47,5 +43,6 @@ class _MainPageState extends State<MainPage> {
         ),
       ),
     );
+    ;
   }
 }

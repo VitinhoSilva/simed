@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simed/screens/homeScreen.dart';
+import 'package:simed/screens/drawScreen.dart';
 import 'package:simed/screens/loginScreen.dart';
 import 'package:simed/screens/splashScreen.dart';
 
